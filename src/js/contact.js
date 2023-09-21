@@ -7,14 +7,12 @@ const sendMail = () => {
     
     let name = document.getElementById("first_name").value;
     let additional = document.getElementById("large-input").value;
-    console.log(additional);
-
+    let user_tel = document.getElementById("tel").value;
     let description_other = document.getElementById("description_other").value;
-    console.log(description_other);
 
     selected = document.querySelector('input[name="service"]:checked');
     let selectService = selected.value;
 
 
-    mailSubmit.href = "mailto:gustavs@gmail.com?subject=Darba piedāvājums&body=Mani interesētu " + selectService + " pakalpojums. " + description_other + " %0A%0A" + additional + "%0A%0A" + name;
+    mailSubmit.href = "mailto:27itsolutions@gmail.com?subject=Darba piedāvājums&body=Mani interesētu " + selectService + " pakalpojums. " + description_other + " %0A%0A" + additional + "%0A%0A" + name + "%0A%0A Mans telefona numurs: " + user_tel;
 }
