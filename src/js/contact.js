@@ -4,7 +4,7 @@ function showAdditionalDescription(style) {
 
 const sendMail = () => {
     let mailSubmit = document.getElementById("mailSubmit");
-    
+
     let name = document.getElementById("first_name").value;
     let additional = document.getElementById("large-input").value;
     let user_tel = document.getElementById("tel").value;
