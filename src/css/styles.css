@@ -2,27 +2,19 @@ html {
     scroll-behavior: smooth;
 }
 
+.content1-picture {
+    display: none;
+}
+
+.content2-picture {
+    display: none;
+}
+
 @media (min-width: 768px) {
 
     .PakalpojumuDiv {
         height: 200vh;
         width: 100%;
-    }
-
-    .front1-picture {
-        height: 344px;
-        box-shadow: 4px 4px 12px 0px rgba(132, 129, 129, 0.23);
-        transform: translate(0px, 70px);
-        position: absolute;
-        display: block !important;
-    }
-
-    .front2-picture {
-        height: 352px !important;
-        box-shadow: 4px 4px 12px 0px rgba(132, 129, 129, 0.23);
-        transform: translate(-100px, 140px);
-        position: absolute;
-        display: block !important;
     }
 
     .down_btn {
@@ -55,23 +47,6 @@ html {
 }
 
 @media (max-width: 768px) {
-    .content1-picture {
-        height: 140px;
-        box-shadow: 4px 4px 12px 0px rgba(132, 129, 129, 0.23);
-        transform: translate(-5px, 0px);
-
-        position: absolute;
-        display: block !important;
-    }
-
-    .content2-picture {
-        height: 150px;
-        box-shadow: 4px 4px 12px 0px rgba(132, 129, 129, 0.23);
-        transform: translate(-30px, 30px);
-        position: absolute;
-        display: block !important;
-    }
-
     .about-us-picture {
         width: 100%;
         box-shadow: 4px 4px 12px 0px rgba(132, 129, 129, 0.23);
@@ -85,23 +60,6 @@ html {
 }
 
 @media (max-width: 450px) {
-    .content1-picture {
-        height: 90px;
-        box-shadow: 4px 4px 12px 0px rgba(132, 129, 129, 0.23);
-        transform: translate(0px, 0px);
-
-        position: absolute;
-        display: block !important;
-    }
-
-    .content2-picture {
-        height: 100px;
-        box-shadow: 4px 4px 12px 0px rgba(132, 129, 129, 0.23);
-        transform: translate(-25px, 25px);
-        position: absolute;
-        display: block !important;
-    }
-
     .about-us-picture {
         width: 100%;
         box-shadow: 4px 4px 12px 0px rgba(132, 129, 129, 0.23);
@@ -128,4 +86,22 @@ html {
     margin-top: 50px;
     margin-right: auto;
     margin-left: auto;
+}
+
+@media only screen and (min-width: 1200px) {
+    .front1-picture {
+        height: 344px;
+        box-shadow: 4px 4px 12px 0px rgba(132, 129, 129, 0.23);
+        transform: translate(0px, 70px);
+        position: absolute;
+        display: block !important;
+    }
+
+    .front2-picture {
+        height: 352px !important;
+        box-shadow: 4px 4px 12px 0px rgba(132, 129, 129, 0.23);
+        transform: translate(-100px, 140px);
+        position: absolute;
+        display: block !important;
+    }
 }
