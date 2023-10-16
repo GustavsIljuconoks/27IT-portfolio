@@ -1,0 +1,107 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.content1-picture {
+    display: none;
+}
+
+.content2-picture {
+    display: none;
+}
+
+@media (min-width: 768px) {
+
+    .PakalpojumuDiv {
+        height: 200vh;
+        width: 100%;
+    }
+
+    .down_btn {
+        margin-top: 150px !important;
+        height: 70px;
+    }
+
+    .content1-picture {
+        height: 175px !important;
+        box-shadow: 4px 4px 12px 0px rgba(132, 129, 129, 0.23);
+        transform: translate(0px, 0px);
+
+        position: absolute;
+        display: block !important;
+    }
+
+    .content2-picture {
+        height: 180px !important;
+        box-shadow: 4px 4px 12px 0px rgba(132, 129, 129, 0.23);
+        transform: translate(-40px, 30px);
+        position: absolute;
+        display: block !important;
+    }
+
+    .about-us-picture {
+        width: 60%;
+        box-shadow: 4px 4px 12px 0px rgba(132, 129, 129, 0.23);
+        display: block !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-us-picture {
+        width: 100%;
+        box-shadow: 4px 4px 12px 0px rgba(132, 129, 129, 0.23);
+        display: block !important;
+    }
+
+    .PakalpojumuDiv {
+        height: 150vh;
+        width: 100%;
+    }
+}
+
+@media (max-width: 450px) {
+    .about-us-picture {
+        width: 100%;
+        box-shadow: 4px 4px 12px 0px rgba(132, 129, 129, 0.23);
+        display: block !important;
+    }
+
+    .PakalpojumuDiv {
+        min-height: 75vh;
+        width: 100%;
+    }
+}
+
+#content #graycontentbox {
+    height: 80%;
+    width: 100%;
+    background-color: #dcdcdc4a;
+    border: solid 3px #99b9ce47;
+}
+
+.down_btn {
+    box-shadow: 20px 20px 80px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 0px 0px 72px 72px;
+    height: 100px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media only screen and (min-width: 1200px) {
+    .front1-picture {
+        height: 344px;
+        box-shadow: 4px 4px 12px 0px rgba(132, 129, 129, 0.23);
+        transform: translate(0px, 70px);
+        position: absolute;
+        display: block !important;
+    }
+
+    .front2-picture {
+        height: 352px !important;
+        box-shadow: 4px 4px 12px 0px rgba(132, 129, 129, 0.23);
+        transform: translate(-100px, 140px);
+        position: absolute;
+        display: block !important;
+    }
+}
